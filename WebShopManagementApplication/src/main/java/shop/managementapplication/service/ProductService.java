@@ -1,11 +1,11 @@
-package com.shop.application.service;
+package shop.managementapplication.service;
 
-import com.shop.application.dao.ProductRepository;
-import com.shop.application.errorhandling.ProductAlreadyExistsException;
-import com.shop.application.errorhandling.ResourceNotFoundException;
-import com.shop.application.domain.products.Product;
-import com.shop.application.dto.ProductMapper;
-import com.shop.application.dto.ProductRequest;
+import shop.managementapplication.dao.ProductRepository;
+import shop.managementapplication.errorhandling.ProductAlreadyExistsException;
+import shop.managementapplication.errorhandling.ResourceNotFoundException;
+import shop.managementapplication.domain.products.Product;
+import shop.managementapplication.dto.ProductMapper;
+import shop.managementapplication.dto.ProductRequest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
